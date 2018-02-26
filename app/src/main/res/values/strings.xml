@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Favorite Contacts</string>
+    <string name="contact_name1">Mom</string>
+    <string name="contact_name2">Tristan</string>
+    <string name="contact_name3">Tracy</string>
+    <string name="contact_phone1">218-821-5186</string>
+    <string name="contact_phone2">218-831-0036</string>
+    <string name="contact_phone3">218-232-2754</string>
+    <string-array name="textMessages">
+        <item>What is up?</item>
+        <item>How is your day?</item>
+        <item>On my way!</item>
+        <item>Sounds Good!</item>
+        <item>I will call you soon!</item>
+    </string-array>
+</resources>

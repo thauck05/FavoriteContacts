@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="edu.css.thauck.favoritecontacts.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="20dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/mother" />
+
+        <TextView
+            android:id="@+id/textViewName1"
+            android:layout_width="20dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/contact_name1"
+            android:textSize="16sp"
+            tools:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textViewPhone1"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/contact_phone1"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/buttonCall1"
+            android:layout_width="15dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:text="Call"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewSelectText1"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:text="Select a Text Message..."
+            android:textSize="12sp" />
+
+        <Spinner
+            android:id="@+id/spinnerText1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:entries="@array/textMessages"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/buttonText1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Send Text"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="20dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/son" />
+
+        <TextView
+            android:id="@+id/textViewName2"
+            android:layout_width="20dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/contact_name2"
+            android:textSize="16sp"
+            tools:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textViewPhone2"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/contact_phone2"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/buttonCall2"
+            android:layout_width="15dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:text="Call"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewSelectText2"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:text="Select a Text Message..."
+            android:textSize="12sp" />
+
+        <Spinner
+            android:id="@+id/spinnerText2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:entries="@array/textMessages"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/buttonText2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Send Text"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="20dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/friend" />
+
+        <TextView
+            android:id="@+id/textViewName3"
+            android:layout_width="20dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/contact_name3"
+            android:textSize="16sp"
+            tools:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textViewPhone3"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/contact_phone3"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/buttonCall3"
+            android:layout_width="15dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:text="Call"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewSelectText3"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:text="Select a Text Message..."
+            android:textSize="12sp" />
+
+        <Spinner
+            android:id="@+id/spinnerText3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:entries="@array/textMessages"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/buttonText3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Send Text"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>
